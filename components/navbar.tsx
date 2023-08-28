@@ -4,6 +4,8 @@ import Link from "next/link";
 import getCategories from "@/actions/get-categories";
 import NavbarActions from "./navbar-actions";
 
+export const revalidate = 0;
+
 const Navbar = async () => {
   const categories = await getCategories();
   return (
