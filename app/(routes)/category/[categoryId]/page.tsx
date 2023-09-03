@@ -2,12 +2,12 @@ import getCategory from "@/actions/get-category";
 import getColors from "@/actions/get-colors";
 import getProducts from "@/actions/get-products";
 import getSizes from "@/actions/get-sizes";
-import Billboard from "@/components/billboard";
+import Billboard from "@/components/ui/billboard";
 import Container from "@/components/ui/container";
 import Filter from "./components/filter";
-import NoResults from "@/components/ui/no-result";
+import NoResults from "@/components/ui/no-results";
 import ProductCard from "@/components/ui/product-card";
-import MobileFilters from "./components/mobile-filter";
+import MobileFilters from "./components/mobile-filters";
 
 export const revalidate = 0;
 
